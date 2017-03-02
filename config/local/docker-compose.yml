@@ -103,5 +103,5 @@ services:
 
 # Must include all named volumes in V2 compose file format.
 volumes:
-    redis:
+#   redis:
     pg-db:
