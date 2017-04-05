@@ -22,5 +22,3 @@
 #set -o nounset             # Treat unset variables as an error
 set -x                     # Essentially debug mode
 echo "in worker.sh"
-
-# This is a new line to test the update instance function
