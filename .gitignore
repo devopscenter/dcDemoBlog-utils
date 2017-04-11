@@ -2,3 +2,4 @@
 personal.env
 environments/.generatedEnvFiles/*
 !environments/.generatedEnvFiles/.keep
+
