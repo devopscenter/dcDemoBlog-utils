@@ -64,6 +64,7 @@ services:
             - "${dcUTILS}:/utils"
             - "${APP_UTILS_CONFIG}:/app-utils/conf"
             - "${APP_UTILS_KEYS}:/app-utils/keys"
+            - "$HOME/devops/devopscenter/dcInternal:/tmp-data"
         working_dir: "/data/deploy/current"
         volumes_from:
             - syslog
